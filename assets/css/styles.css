@@ -40,6 +40,7 @@ li {
 }
 
 .anchor {
+  cursor: pointer;
   color: #CFEDF2;
   font-family: 'Fugaz One', cursive;
   font-size: 32px;
@@ -56,4 +57,45 @@ li {
 
 .login-icon {
   cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 72px);
+  background: url(../img/casal-viajando-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #89D4E2;
+}
+
+.container-logo {
+  position: relative;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+}
+
+.title {
+  position: absolute;
+  z-index: 3;
+  bottom: 5%;
+  font-family: 'Fugaz One', cursive;
+  color: #CFEDF2;
+  -webkit-text-stroke: 1px #276274;
+  font-size: 45px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #FFCE6A;
+  opacity: 0.5;
 }
