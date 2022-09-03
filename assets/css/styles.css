@@ -99,6 +99,10 @@ li {
   opacity: 0.5;
 }
 
+.container-carousel {
+  display: flex;
+}
+
 .title-vehicle-evaluation,
 .car-title {
   margin-top: 32px;
@@ -139,4 +143,48 @@ li {
 
 .control {
   cursor: pointer;
+}
+
+.container-comment {
+  margin-left: 64px;
+  flex-direction: column;
+}
+
+.user-comment {
+  color: #276274;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-avatar-comment {
+  margin-top: 24px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 32px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.comment-icons {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.comment {
+  margin-left: 16px;
+  color: #276274;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.dislike,
+.share,
+.messenger {
+  margin-left: 24px;
 }
